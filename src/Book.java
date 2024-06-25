@@ -60,11 +60,6 @@ public class Book {
     }
     @Override
     public String toString() {
-        return "Book {" +
-                "id" + this.id + "\n"+
-                "title"+ this.title+ "\n"+
-                "author"+this.author+ "\n"+
-                "publishYear" + this.publishYear+"\n"+
-                "status"+ this.status+"\n";
+        return STR."Book {id\{this.id}\ntitle\{this.title}\nauthor\{this.author}\npublishYear\{this.publishYear}\nstatus\{this.status}\n";
     }
 }
